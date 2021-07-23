@@ -5,11 +5,11 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+<i>Am Just Filter Bot Created by Team @MoviZenX😉
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
+Just Add Me To Your Group And Channel And Connect Them And See My Severs 🔥🔥😝
 
-For More Details Click Help Button Below..
+For More Details Click /Help Button Below..
 @MovizenX
 </i>"""    
     
@@ -43,16 +43,16 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@MovizenX
+@MovizenX | @AnnihilusOP
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
+    ABOUT_TEXT = """<b>👑 Name</b> : <code>𝓗𝓪𝓻𝓵𝓮𝔂 𝓠𝓾𝓲𝓷𝓷</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/AnnihilusOP">AnnihilusOP</a></i></b>
+<b>👑 Creator</b> : <b><i><a href="https://t.me/AnnihilusOP">AnnihilusOP</a></i></b>
 
-<b>➥ Language</b> : <code>Python3</code>
+<b>👑 Language</b> : <code>Python3</code>
 
-<b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
+<b>👑 Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ Channel</b> : <i><a href="https://t.me/MoviZenX">Click Here</a></i>
+<b>👑 Channel</b> : <i><a href="https://t.me/MoviZenX">Click Here</a></i>
 """
