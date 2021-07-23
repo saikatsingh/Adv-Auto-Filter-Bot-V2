@@ -5,7 +5,7 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just Filter Bot Created by Team @MoviZenX😉
+<i>Am 𝓗𝓪𝓻𝓵𝓮𝔂 𝓠𝓾𝓲𝓷𝓷 Bot Created by Team @MoviZenX😉
 
 Just Add Me To Your Group And Channel And Connect Them And See My Severs 🔥🔥😝
 
