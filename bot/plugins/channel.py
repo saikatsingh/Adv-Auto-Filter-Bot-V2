@@ -112,7 +112,7 @@ async def connect(bot: Bot, update):
                             continue
                         file_id = file_id.video.file_id
                         file_name = msgs.video.file_name[0:-4]
-                        file_caption  = msgs.caption if msgs.caption else ""
+                        file_caption  = msgs.caption if msgs.caption else "@MoviZenX"
                         file_size = msgs.video.file_size
                         file_type = "video"
                     
@@ -127,7 +127,7 @@ async def connect(bot: Bot, update):
                             continue
                         file_id = file_id.audio.file_id
                         file_name = msgs.audio.file_name[0:-4]
-                        file_caption  = msgs.caption if msgs.caption else ""
+                        file_caption  = msgs.caption if msgs.caption else "@MoviZenX"
                         file_size = msgs.audio.file_size
                         file_type = "audio"
                     
@@ -142,7 +142,7 @@ async def connect(bot: Bot, update):
                             continue
                         file_id = file_id.document.file_id
                         file_name = msgs.document.file_name[0:-4]
-                        file_caption  = msgs.caption if msgs.caption else ""
+                        file_caption  = msgs.caption if msgs.caption else "@MoviZenX"
                         file_size = msgs.document.file_size
                         file_type = "document"
                     
@@ -299,21 +299,21 @@ async def new_files(bot: Bot, update):
             file_type = "video" 
             file_id = update.video.file_id
             file_name = update.video.file_name[0:-4]
-            file_caption  = update.caption if update.caption else ""
+            file_caption  = update.caption if update.caption else "@MoviZenX"
             file_size = update.video.file_size
 
         elif update.audio:
             file_type = "audio"
             file_id = update.audio.file_id
             file_name = update.audio.file_name[0:-4]
-            file_caption  = update.caption if update.caption else ""
+            file_caption  = update.caption if update.caption else "@MoviZenX"
             file_size = update.audio.file_size
 
         elif update.document:
             file_type = "document"
             file_id = update.document.file_id
             file_name = update.document.file_name[0:-4]
-            file_caption  = update.caption if update.caption else ""
+            file_caption  = update.caption if update.caption else "@MoviZenX"
             file_size = update.document.file_size
 
         for i in ["_", "|", "-", "."]: # Work Around
