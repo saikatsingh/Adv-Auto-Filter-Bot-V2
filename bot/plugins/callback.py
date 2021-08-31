@@ -89,8 +89,8 @@ async def cb_navg(bot, update: CallbackQuery):
 
     else:
         temp_results.append([
-            InlineKeyboardButton("⬅️ Back", callback_data=f"navigate({index_val}|back|{query})"),
-            InlineKeyboardButton("Next ➡️", callback_data=f"navigate({index_val}|next|{query})")
+            InlineKeyboardButton("⏪ Back", callback_data=f"navigate({index_val}|back|{query})"),
+            InlineKeyboardButton("Next ⏩", callback_data=f"navigate({index_val}|next|{query})")
         ])
 
     if not int(index_val) == 0:    
@@ -1642,7 +1642,7 @@ async def callback_data(bot, update: CallbackQuery):
             InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AnnihilusOP'),
             InlineKeyboardButton('Updates Channel 🧾', url ='https://t.me/movizenx')
         ],[
-            InlineKeyboardButton('Movie Group 🛠', url='https://t.me/MoviZenix')
+            InlineKeyboardButton('Movie Group 🛠', url='https://t.me/MvZnx')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
